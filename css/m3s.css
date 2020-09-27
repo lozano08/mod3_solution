@@ -1,0 +1,61 @@
+/********** Base styles **********/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start of header */
+#header-nav {
+  background-color: #191970;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Brand Name */
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background: #ababed;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e6e600;
+}
+
+#nav-list li {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-collapse{
+  padding-right: 0;
+  padding-left: 0;
+}
+/* End of header */
+
+/* Sections for Main Content */
+#chicken, #beef, #sushi {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  position: relative;
+  border: 2px solid #000000;
+  background: #191970;
+  color: #ffffff;
+}
