@@ -66,5 +66,6 @@ body {
 }
 
 #chicken h3, #beef h3, #sushi h3 {
-	margin-top: 0;
+  margin-top: 0;
+  font-weight: bold;
 }
