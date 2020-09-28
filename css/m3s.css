@@ -49,6 +49,10 @@ body {
 }
 /* End of header */
 
+#menu{
+	margin: 20px 20px 30px 20px;
+}
+
 /* Sections for Main Content */
 #chicken, #beef, #sushi {
   width: 100%;
